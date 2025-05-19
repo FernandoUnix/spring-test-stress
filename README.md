@@ -23,16 +23,16 @@ This is useful for:
 - Maven Surefire Plugin configured in your project:
 
 ```xml
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.5.3</version>
-                <configuration>
-                    <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
-                    <reportFormat>brief</reportFormat>
-                    <printSummary>true</printSummary>
-                </configuration>
-            </plugin>
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.5.3</version>
+    <configuration>
+        <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
+        <reportFormat>brief</reportFormat>
+        <printSummary>true</printSummary>
+    </configuration>
+</plugin>
 
 ```
 
