@@ -29,3 +29,46 @@ This is useful for:
     <version>2.22.2</version>
 </plugin>
 
+```
+
+🚀 How to Use
+1. Clone the repository (or copy the scripts)
+
+2. Run tests multiple times
+
+./run-tests-multiple-times.sh 100
+
+This will run your full test suite 100 times.
+
+3. Process logs and generate the final report
+
+./process-test-logs.sh
+
+📁 Script Overview
+
+run-tests-multiple-times.sh
+Executes your test suite N times and logs each run.
+
+process-test-logs.sh
+Analyzes the logs and generates a summary report of all test failures.
+
+📌 Notes
+
+Make sure your test logs are not overwritten between runs — each run should be logged separately.
+
+You can adjust the scripts to fit custom logging formats or testing tools if needed.
+
+🛠️ Future Improvements
+
+Support for parallel test runs
+
+HTML/CSV report generation
+
+Integration with CI pipelines
+
+📃 License
+MIT License — feel free to use, modify, and contribute.
+
+
+
+
