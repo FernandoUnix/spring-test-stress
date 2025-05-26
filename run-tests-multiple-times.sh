@@ -12,5 +12,5 @@ mkdir -p test-logs
 # Loop to run the tests the specified number of times
 for i in $(seq 1 $REPEAT); do
   echo "🔁 Running tests - Iteration $i"
-  mvn test -DargLine="-ea" -f pom.xml > test-logs/test_run_$i.log
+  mvn test -DargLine="-ea" -f pom.xml > test-logs/test_run_$i.log # Adjust this line to match your 'mvn test' command.
 done
